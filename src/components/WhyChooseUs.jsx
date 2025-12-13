@@ -10,9 +10,9 @@ const WhyChooseUs = () => {
             <h2 className='text-4xl font-semibold italic'>Drive Today's <span className='italic'>Success</span></h2>
 
 
-            <div className='flex justify-between items-center w-4/6 mx-auto mt-10'>
+            <div className='md:flex justify-between items-center gap-5 lg:w-4/6 space-y-3 mx-auto mt-10'>
 
-                <div className="card bg-gray-100 w-110 shadow-md">
+                <div className="card bg-gray-100 lg:w-110 shadow-md">
 
                     <img
                         src={infinity}
@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
                     </div>
                 </div>
 
-                <div className="card bg-gray-100 w-110 shadow-md">
+                <div className="card bg-gray-100 lg:w-110 shadow-md">
                     <img
                         src={contact}
                         className='w-[150px] p-4 h-[120px] rounded-xl'
@@ -39,7 +39,7 @@ const WhyChooseUs = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-3 mt-5 w-4/6 mx-auto gap-8'>
+            <div className='md:grid md:grid-cols-2 lg:grid-cols-3 mt-5  lg:w-4/6 mx-auto space-y-3 gap-8'>
 
                 <div className="card bg-gray-100 w-70 shadow-md">
 

@@ -4,7 +4,7 @@ import card1 from '../assets/card1.avif'
 
 const Projects = () => {
     return (
-        <div className='bg-white text-black px-20 py-10 border-b border-black-500'>
+        <div className='bg-white text-black px-5 lg:px-20 py-10 border-b border-black-500'>
             <span className='border-1  border-green-500 text-green-500 px-5 py-2 rounded-3xl '>Industry Wins</span>
             <h2 className='text-4xl font-semibold mt-4'>Proven Success In</h2>
             <h2 className='text-4xl font-semibold italic'>Every Industry</h2>
