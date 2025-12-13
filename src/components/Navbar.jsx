@@ -25,7 +25,7 @@ const Navbar = () => {
                     <a className="btn btn-ghost text-xl font-bold text-white pl-40">LOGO</a>
                 </div>
                 
-                <div className="hidden md:block navbar-end pl-40 ">
+                <div className="hidden md:block navbar-end lg:pl-40 ">
                   
                     <ul className="menu menu-horizontal px-1 ">
                         {links}

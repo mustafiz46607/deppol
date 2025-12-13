@@ -10,7 +10,7 @@ const Banner = () => {
     return (
         <div className="relative flex justify-between items-center  py-10 bg-black text-white">
 
-            <div className="relative w-1/4 h-[450px] ">
+            <div className="hidden md:block relative w-1/4 h-[450px] ">
 
                 <img 
                     src={banner2} 
@@ -32,13 +32,13 @@ const Banner = () => {
             </div>
 
 
-            <div className="w-2/4 text-center space-y-5">
+            <div className="w-full md:w-2/4 text-center space-y-5">
 
                 <h3 className="text-lg font-semibold">
                     Leading UI/UX Design Agency
                 </h3>
 
-                <h1 className="text-6xl font-bold leading-tight">
+                <h1 className="md:text-3xl lg:text-6xl font-bold leading-tight">
                     We <span className="italic">Design</span> Products That Drive <span className="italic">Results</span>
                 </h1>
 
@@ -55,7 +55,7 @@ const Banner = () => {
             </div>
 
 
-            <div className="relative w-1/4 h-[450px] right-0">
+            <div className=" hidden md:block  w-1/4 h-[450px] right-0">
 
                 <img 
                     src={banner1} 
