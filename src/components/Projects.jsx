@@ -106,11 +106,11 @@ const Projects = () => {
                     
                     <div className="lg:w-1/2 ">
                         <h3 className="text-xl italic font-bold playfair-display mb-4">
-                            News Portal
+                            Agency
                         </h3>
 
                         <h1 className="text-3xl font-bold mb-4">
-                            Website Maintenance
+                            Manage IT
                         </h1>
 
                         <p className="text-gray-700 mb-6">
@@ -128,7 +128,7 @@ const Projects = () => {
                             <div>
                                 <p className="font-bold text-black">Michael Babwar</p>
                                 <p className="text-sm font-semibold">
-                                    Caribbean Times – Publisher
+                                    Publisher
                                 </p>
                             </div>
                         </div>
