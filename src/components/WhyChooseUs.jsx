@@ -1,6 +1,5 @@
 import React from 'react';
-import infinity from '../assets/infinity.avif'
-import contact from '../assets/contact.avif'
+
 
 const WhyChooseUs = () => {
     return (
@@ -10,14 +9,14 @@ const WhyChooseUs = () => {
             <h2 className='text-4xl font-semibold italic'>Drive Today's <span className='italic'>Success</span></h2>
 
 
-            <div className='md:flex justify-between items-center gap-5 lg:w-4/6 space-y-3 mx-auto mt-10'>
+            <div className='md:flex justify-between items-center gap-5 lg:w-4/6 mx-auto mt-10'>
 
-                <div className="card bg-gray-100 lg:w-110 shadow-md">
+                <div className="card bg-gray-100 lg:w-110 shadow-md mb-3">
 
                     <img
-                        src={infinity}
+                        src=''
                         className='w-[200px] p-4 h-[120px] rounded-xl'
-                        alt="Shoes" />
+                        alt="" />
 
                     <div className="card-body">
                         <h2 className="card-title">Unlimited Revisions</h2>
@@ -25,9 +24,9 @@ const WhyChooseUs = () => {
                     </div>
                 </div>
 
-                <div className="card bg-gray-100 lg:w-110 shadow-md">
+                <div className="card bg-gray-100 lg:w-110 shadow-md mb-3">
                     <img
-                        src={contact}
+                        src=''
                         className='w-[150px] p-4 h-[120px] rounded-xl'
                         alt='' />
 
@@ -39,14 +38,14 @@ const WhyChooseUs = () => {
                 </div>
             </div>
 
-            <div className='md:grid md:grid-cols-2 lg:grid-cols-3 mt-5  lg:w-4/6 mx-auto space-y-3 gap-8'>
+            <div className='md:grid md:grid-cols-2 lg:grid-cols-3 mt-5  lg:w-4/6 mx-auto  gap-8'>
 
-                <div className="card bg-gray-100 w-70 shadow-md">
+                <div className="card bg-gray-100 w-70 shadow-md mb-3">
 
                     <img
-                        src={infinity}
+                        src=''
                         className='w-[150px] p-4 h-[100px] rounded-xl'
-                        alt="Shoes" />
+                        alt="" />
 
                     <div className="card-body">
                         <h2 className="card-title">Unlimited Revisions</h2>
@@ -54,12 +53,12 @@ const WhyChooseUs = () => {
                     </div>
                 </div>
 
-                <div className="card bg-gray-100 w-70 shadow-md">
+                <div className="card bg-gray-100 w-70 shadow-md mb-3">
 
                     <img
-                        src={infinity}
+                        src=''
                         className='w-[150px] p-4 h-[100px] rounded-xl'
-                        alt="Shoes" />
+                        alt="" />
 
                     <div className="card-body">
                         <h2 className="card-title">Unlimited Revisions</h2>
@@ -67,12 +66,12 @@ const WhyChooseUs = () => {
                     </div>
                 </div>
 
-                <div className="card bg-gray-100 w-70 shadow-md">
+                <div className="card bg-gray-100 w-70 shadow-md mb-3">
 
                     <img
-                        src={infinity}
+                        src=''
                         className='w-[150px] p-4 h-[100px] rounded-xl'
-                        alt="Shoes" />
+                        alt="" />
 
                     <div className="card-body">
                         <h2 className="card-title">Unlimited Revisions</h2>

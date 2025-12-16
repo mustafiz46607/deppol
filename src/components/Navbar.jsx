@@ -1,12 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router';
+import logo from '../assets/deppol 1.png'
 
 const Navbar = () => {
     const links = <>
-        <NavLink className={'font-semibold text-lg text-white m-2'}>Projects </NavLink>
-        <NavLink className={'font-semibold text-lg text-white m-2'}>Services </NavLink>
-        <NavLink className={'font-semibold text-lg text-white m-2'}>Pricing </NavLink>
-        <NavLink className={'font-semibold text-lg text-white m-2'}>More </NavLink>
+        <NavLink className={'text-white m-2'}>Home </NavLink>
+        <NavLink className={'text-white m-2'}>Projects </NavLink>
+        <NavLink className={'text-white m-2'}>Services </NavLink>
+        <NavLink className={'text-white m-2'}>Company </NavLink>
+        <NavLink className={'text-white m-2'}>Resources </NavLink>
     </>
     return (
         <div className='w-full'>
@@ -22,7 +24,7 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl font-bold text-white pl-40">LOGO</a>
+                  <a href=""> <img src={logo} className='w-[100px] md:ml-10' alt="" /></a> 
                 </div>
                 
                 <div className="hidden md:block navbar-end lg:pl-40 ">

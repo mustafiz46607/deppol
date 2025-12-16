@@ -1,6 +1,5 @@
 import React from 'react';
-import design1 from '../assets/design1.avif'
-import design2 from '../assets/design2.avif'
+
 
 const WhatWeDo = () => {
     return (
@@ -16,10 +15,10 @@ const WhatWeDo = () => {
                     <button className="btn text-semibold text-purple-500 border-none  shadow-none bg-transparent my-5">See More</button>
                 </div>
                 <div className='lg:w-1/3  h-full  '>
-                    <img src={design1} className='lg:h-5/6 mt-10 mx-auto lg:w-4/6 rounded-xl ' alt="" />
+                    <img src='' className='lg:h-5/6 mt-10 mx-auto lg:w-4/6 rounded-xl ' alt="" />
                 </div>
                 <div className='lg:w-1/3  h-full my-10'>
-                  <img src={design2} className='lg:h-5/6 lg:w-4/6 mx-auto mt-25 rounded-xl ' alt="" />
+                  <img src='' className='lg:h-5/6 lg:w-4/6 mx-auto mt-25 rounded-xl ' alt="" />
                 </div>
             </div>
         </div>
