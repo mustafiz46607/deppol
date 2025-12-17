@@ -12,7 +12,7 @@ const Banner = () => {
     return (
         <div className="relative items-center text-center py-10 bg-black text-white overflow-hidden">
 
-            <div className='absolute top-55 md:top-40 '>
+            <div className='absolute top-55 md:top-40 w-full'>
                 <img src={banner} className='opacity-30 ' alt="" />
             </div>
 
@@ -41,7 +41,7 @@ const Banner = () => {
 
 
                 <div className='relative'>
-                    <div className='grid grid-cols-8 gap-5 justify-between mx-10 items-center mt-8 '>
+                    <div className='grid grid-cols-8 gap-5 justify-between px-5 md:mx-15 items-center mt-8 '>
                         <img src={spotify} alt="" />
                         <img src={zapier} alt="" />
                         <img src={spotify} alt="" />

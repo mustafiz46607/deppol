@@ -9,7 +9,7 @@ const ClientStories = () => {
 
 
             <div>
-                <div className="carousel w-full md:w-4/6 my-5">
+                <div className="carousel w-full lg:w-5/6 my-5">
                     <div id="slide1" className="carousel-item relative w-full">
 
                         <div className="hero bg-white-100 border border-gray-200 rounded-lg shadow-lg">

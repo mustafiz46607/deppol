@@ -24,10 +24,10 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                  <a href=""> <img src={logo} className='w-[100px] md:ml-10' alt="" /></a> 
+                  <a href=""> <img src={logo} className='w-[100px] md:ml-17' alt="" /></a> 
                 </div>
                 
-                <div className="hidden md:block navbar-end lg:pl-40 ">
+                <div className="hidden md:block navbar-end lg:pl-47 ">
                   
                     <ul className="menu menu-horizontal px-1 ">
                         {links}
