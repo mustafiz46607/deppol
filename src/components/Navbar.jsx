@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router';
 import logo from '../assets/deppol 1.png'
+import { IoMdArrowDropdown } from "react-icons/io";
+import { MdArrowOutward } from "react-icons/md";
 import serviceImg from '../assets/ROTATE ME to 0° (mackbook)-1.png'
 
 const Navbar = () => {
@@ -8,14 +10,14 @@ const Navbar = () => {
         <li><NavLink className={'text-white'}>Home </NavLink></li>
         <li><NavLink className={'text-white'}>Projects </NavLink></li>
         <li className="relative group">
-            <NavLink className={'text-white '}>Services </NavLink>
-        
+            <NavLink className={'text-white '}>Services <IoMdArrowDropdown /></NavLink>
+
 
             {/* POPUP CARD */}
             <div
                 className="
-                    absolute left-[-270px] top-full mt-4
-                    w-[500px] bg-white text-black
+                    absolute left-[-340px] top-full mt-4
+                    w-[600px] bg-white text-black
                      shadow-xl p-6
                     opacity-0 invisible
                     group-hover:opacity-100 group-hover:visible
@@ -73,9 +75,12 @@ const Navbar = () => {
                     {/* RIGHT SIDE - IMAGE CARD */}
                     <div className="w-1/2 bg-gray-100 rounded-xl overflow-hidden">
                         <div className="p-4">
-                            <h3 className="font-bold text-lg">
-                                Level Up Like Player
-                            </h3>
+                            <div className='flex justify-between items-center'>
+                                <h3 className="font-bold text-lg">
+                                    Level Up Like Player
+                                </h3>
+                                <MdArrowOutward className='text-xl' />
+                            </div>
                             <p className="text-sm text-gray-600">
                                 Our services will help you win the business success game.
                             </p>
@@ -91,8 +96,87 @@ const Navbar = () => {
                 </div>
             </div>
         </li>
-        <li><NavLink className={'text-white'}>Company </NavLink></li>
-        <li><NavLink className={'text-white'}>Resources </NavLink></li>
+        <li><NavLink className={'text-white'}>Pricing </NavLink></li>
+        <li className="relative group">
+            <NavLink className={'text-white '}>Company <IoMdArrowDropdown /></NavLink>
+
+
+            {/* POPUP CARD */}
+            <div
+                className="
+                    absolute left-[-500px] top-full mt-4
+                    w-[600px] bg-white text-black
+                     shadow-xl p-6
+                    opacity-0 invisible
+                    group-hover:opacity-100 group-hover:visible
+                    transition-all duration-300
+                    z-50
+                "
+            >
+                <div className="flex gap-6">
+                    {/* left SIDE - IMAGE CARD */}
+                    <div className="w-1/2 bg-gray-100 rounded-xl overflow-hidden">
+                        <div className="p-4 ">
+                            <div className='flex justify-between items-center'>
+                                <h3 className="font-bold text-lg">
+                                    Our Latest Work
+                                </h3>
+                                <MdArrowOutward className='text-xl' />
+                            </div>
+                            <p className="text-sm text-gray-600">
+                                We've recently worked on some amazing projects. Let's have a glance over the case studies to learn how our effort morks to glow our client's businesses.
+                            </p>
+                        </div>
+
+                        <img
+                            src={serviceImg}
+                            alt="Service"
+                            className="w-full h-[220px] object-cover"
+                        />
+                    </div>
+
+                    {/* right SIDE - SERVICES LIST */}
+                    <div className="w-1/2 space-y-4">
+                        <div>
+                            <h4 className="font-semibold">About us</h4>
+                            <p className="text-sm text-gray-500">
+                                The journey of Design Monks
+                            </p>
+                        </div>
+
+                        <div>
+                            <h4 className="font-semibold">Meet the team</h4>
+                            <p className="text-sm text-gray-500">
+                                An overview of the Monk family
+                            </p>
+                        </div>
+
+                        <div>
+                            <h4 className="font-semibold">Blogs</h4>
+                            <p className="text-sm text-gray-500">
+                                A collection of informative blogs
+                            </p>
+                        </div>
+
+                        <div>
+                            <h4 className="font-semibold">Career</h4>
+                            <p className="text-sm text-gray-500">
+                                Work with top global brands, grow your skills
+                            </p>
+                        </div>
+
+                        <div>
+                            <h4 className="font-semibold">Contact us</h4>
+                            <p className="text-sm text-gray-500">
+                                Start your dream design journey from here
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </li>
     </>
     return (
         <div className='w-full'>
@@ -108,11 +192,11 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                  <a href=""> <img src={logo} className='w-[100px] md:ml-17' alt="" /></a> 
+                    <a href=""> <img src={logo} className='w-[100px] md:ml-17' alt="" /></a>
                 </div>
-                
+
                 <div className="hidden md:block navbar-end lg:pl-40 ">
-                  
+
                     <ul className="menu menu-horizontal px-1 ">
                         {links}
                     </ul>
