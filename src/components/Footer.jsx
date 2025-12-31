@@ -1,5 +1,11 @@
 import React from 'react';
 
+import spotify from '../assets/Vector.png'
+import zapier from '../assets/Logo-4.png'
+import amazon from '../assets/Logo-1.png'
+import slack from '../assets/Logo-3.png'
+import zoom from '../assets/Logo-2.png'
+import adobe from '../assets/Logo.png'
 const Footer = () => {
     return (
         <div className='bg-black '>
@@ -38,31 +44,17 @@ const Footer = () => {
                 </footer>
             </div>
             <div>
-                <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content px-30 py-10 ">
-                    <nav className=''>
-                        <h6 className="footer-title">LOGO</h6>
-                        <a className="link link-hover">Tag Line</a>
-                    </nav>
-                    <nav>
-                        <h6 className="footer-title">LOGO</h6>
-                        <a className="link link-hover">Tag Line</a>
-                    </nav>
-                    <nav>
-                        <h6 className="footer-title">LOGO</h6>
-                        <a className="link link-hover">Tag Line</a>
-                    </nav>
-                    <nav>
-                        <h6 className="footer-title">LOGO</h6>
-                        <a className="link link-hover">Tag Line</a>
-                    </nav>
-                    <nav>
-                        <h6 className="footer-title">LOGO</h6>
-                        <a className="link link-hover">Tag Line</a>
-                    </nav>
-                    <nav>
-                        <h6 className="footer-title">LOGO</h6>
-                        <a className="link link-hover">Tag Line</a>
-                    </nav>
+                <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content  ">
+                     <div className='grid grid-cols-8 gap-5 justify-between px-5 md:mx-15 items-center mt-8 '>
+                                            <img src={spotify} alt="" />
+                                            <img src={zapier} alt="" />
+                                            <img src={spotify} alt="" />
+                                            <img src={zoom} alt="" />
+                                            <img src={slack} alt="" />
+                                            <img src={amazon} alt="" />
+                                            <img src={adobe} alt="" />
+                                            <img src={adobe} alt="" />
+                                        </div>
                 </footer>
             </div>
 

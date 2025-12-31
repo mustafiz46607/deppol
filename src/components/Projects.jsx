@@ -5,8 +5,10 @@ import top from '../assets/top.png'
 import left from '../assets/left.png'
 import right from '../assets/right.png'
 import ellipse from '../assets/Ellipse 1.png'
+import { Link } from 'react-router'
 
 const Projects = () => {
+    
     return (
         <div className="bg-white text-black px-5 lg:px-20 py-10 border-b">
 
@@ -139,9 +141,9 @@ const Projects = () => {
 
             {/* BUTTON */}
             <div className="text-center py-10">
-                <button className="btn btn-primary px-8 py-4">
+                <Link to={"/Projects"} className="btn btn-primary px-8 py-4" >
                     See All Projects
-                </button>
+                </Link>
             </div>
         </div>
     )
