@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router';
+import { Link, Links, NavLink } from 'react-router';
 import logo from '../assets/deppol 1.png';
 import { IoMdArrowDropdown } from "react-icons/io";
 import { MdArrowOutward } from "react-icons/md";
@@ -48,42 +48,42 @@ const Navbar = () => {
                         {/* LEFT SIDE */}
                         <div className="w-1/2 space-y-4">
                             <div>
-                                <h4 className="font-semibold">UI/UX</h4>
+                                <Link to={"/Services/UI_UX"} className="font-semibold">UI/UX</Link>
                                 <p className="text-sm text-gray-500">
                                     Creating user-friendly digital experiences.
                                 </p>
                             </div>
 
                             <div>
-                                <h4 className="font-semibold">Web Design</h4>
+                                <Link to={"/Services/Web_design"} className="font-semibold">Web Design</Link>
                                 <p className="text-sm text-gray-500">
                                     Visually appealing & functional websites.
                                 </p>
                             </div>
 
                             <div>
-                                <h4 className="font-semibold">Web Development</h4>
+                                <Link to={"/Services/Web_dev"} className="font-semibold">Web Development</Link>
                                 <p className="text-sm text-gray-500">
                                     Responsive websites effortlessly.
                                 </p>
                             </div>
 
                             <div>
-                                <h4 className="font-semibold">Brand Design</h4>
+                                <Link to={"/Services/Brand_design"} className="font-semibold">Brand Design</Link>
                                 <p className="text-sm text-gray-500">
                                     Interactive web designs made simple.
                                 </p>
                             </div>
 
                             <div>
-                                <h4 className="font-semibold">Logo & Branding</h4>
+                                <Link to={"/Services/Logo_Branding"} className="font-semibold">Logo & Branding</Link>
                                 <p className="text-sm text-gray-500">
                                     Creating memorable identities.
                                 </p>
                             </div>
 
                             <div>
-                                <h4 className="font-semibold">SaaS Design</h4>
+                                <Link to={"/Services/Saas_design"} className="font-semibold">SaaS Design</Link>
                                 <p className="text-sm text-gray-500">
                                     Intuitive interfaces that boost engagement.
                                 </p>
@@ -121,7 +121,7 @@ const Navbar = () => {
             </li>
 
             <li className="relative group">
-                <NavLink to="/Company" className={navLinkClass}>
+                <NavLink to={"/Company"} className={navLinkClass}>
                     Company <IoMdArrowDropdown className="inline" />
                 </NavLink>
 
@@ -160,35 +160,35 @@ const Navbar = () => {
 
                         <div className="w-1/2 space-y-4">
                             <div>
-                                <h4 className="font-semibold">About Us</h4>
+                                <Link to={"/Company/About_us"} className="font-semibold">About Us</Link>
                                 <p className="text-sm text-gray-500">
                                     The journey of Design Monks
                                 </p>
                             </div>
 
                             <div>
-                                <h4 className="font-semibold">Meet the Team</h4>
+                                <Link to={"/Company/Meet_the_team"} className="font-semibold">Meet the Team</Link>
                                 <p className="text-sm text-gray-500">
                                     An overview of the Monk family
                                 </p>
                             </div>
 
                             <div>
-                                <h4 className="font-semibold">Blogs</h4>
+                                <Link to={"/Company/Blogs"} className="font-semibold">Blogs</Link>
                                 <p className="text-sm text-gray-500">
                                     A collection of informative blogs
                                 </p>
                             </div>
 
                             <div>
-                                <h4 className="font-semibold">Career</h4>
+                                <Link to={"/Company/Career"} className="font-semibold">Career</Link>
                                 <p className="text-sm text-gray-500">
                                     Work with top global brands
                                 </p>
                             </div>
 
                             <div>
-                                <h4 className="font-semibold">Contact Us</h4>
+                                <Link to={"/Company/Contact_us"} className="font-semibold">Contact Us</Link>
                                 <p className="text-sm text-gray-500">
                                     Start your dream design journey
                                 </p>
