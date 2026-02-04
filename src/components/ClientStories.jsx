@@ -2,7 +2,7 @@ import React from 'react';
 
 const ClientStories = () => {
     return (
-        <div className='bg-white text-black text-center px-5 lg:px-20 py-10 border-b border-black-500'>
+        <div className='bg-white text-black text-center px-5 lg:px-50 py-20 border-b border-gray-200'>
             <span className='border-1  border-green-500 text-green-500 px-5 py-2 rounded-3xl '>Client Stories</span>
             <h2 className='text-4xl font-semibold mt-4'>Our Clients Love </h2>
             <h2 className='text-4xl font-semibold mt-4'>to <span className='playfair-display italic'>Recommended Us</span> </h2>

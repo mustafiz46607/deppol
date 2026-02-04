@@ -9,7 +9,7 @@ import ClientStories from './ClientStories';
 
 const Home = () => {
     return (
-        <div className='max-w-[1240px] mx-auto red-hat-display'>
+        <div className='w-full mx-auto red-hat-display'>
            <Banner></Banner>
            <Projects></Projects>
            <Clinet></Clinet>

@@ -11,13 +11,13 @@ import { Link } from 'react-router';
 
 const Banner = () => {
     return (
-        <div className="relative items-center text-center py-10 bg-black text-white overflow-hidden">
+        <div className="relative items-center text-center py-20 bg-black text-white overflow-hidden">
 
             <div className='absolute top-55 md:top-40 w-full  z-0 pointer-events-none'>
                 <img src={banner} className='opacity-30 ' alt="" />
             </div>
 
-            <div className=" w-full text-center relative z-10">
+            <div className=" w-full  text-center relative z-10">
 
                 <span className="inline-block px-6 py-1 rounded-full border border-gray-500 mb-5">
                     👋 welcome to deppol
@@ -33,7 +33,7 @@ const Banner = () => {
                 </h1>
 
                 <div className='text-center my-10 '>
-                    <Link to={"/Company"} className="px-6 py-2 rounded-xl font-bold btn btn-primary">
+                    <Link to={"/company/contact-us"} className="px-6 py-2 rounded-xl font-bold btn btn-primary">
                         Contact Us
                     </Link>
                 </div>
@@ -42,7 +42,7 @@ const Banner = () => {
 
 
                 <div className='relative'>
-                    <div className='grid grid-cols-8 gap-5 justify-between px-5 md:mx-15 items-center mt-8 '>
+                    <div className='grid grid-cols-8 gap-5 justify-between px-5 lg:px-50 md:mx-15 items-center mt-8 '>
                         <img src={spotify} alt="" />
                         <img src={zapier} alt="" />
                         <img src={spotify} alt="" />
@@ -52,7 +52,7 @@ const Banner = () => {
                         <img src={adobe} alt="" />
                         <img src={adobe} alt="" />
                     </div>
-                    <div className='absolute top-[-10px] md:top-[-80px]  '>
+                    <div className='absolute top-5 md:top-[-45px]  '>
                         <img src={banner2} className='' alt="" />
                     </div>
                 </div>

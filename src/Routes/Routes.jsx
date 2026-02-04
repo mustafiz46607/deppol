@@ -32,63 +32,60 @@ const router = createBrowserRouter([
         Component:Home
     },
     {
-      path:'/Projects',
+      path:'/projects',
       element:<Projects></Projects>
     },
     {
-      path:'/Services',
+      path:'/services',
       element:<Services></Services>
     },
     {
-      path:'/Pricing',
+      path:'/pricing',
       element:<Pricing></Pricing>
     },
+  
     {
-      path:'/Company',
-      element:<Company></Company>
-    },
-    {
-      path:'/services/UI_UX',
+      path:'/services/ui-ux',
       element:<UI_UX></UI_UX>
     },
     {
-      path:'/Services/Web_design',
+      path:'/services/web-design',
       element:<Web_design></Web_design>
     },
     {
-      path:'/Services/Web_dev',
+      path:'/services/web-development',
       element:<Web_dev></Web_dev>
     },
     {
-      path:'/Services/Brand_design',
+      path:'/services/brand-design',
       element:<Brand_design></Brand_design>
     },
     {
-      path:'/Services/Logo_Branding',
+      path:'/services/logo-&-branding',
       element:<Logo_Branding></Logo_Branding>
     },
     {
-      path:'/Services/Saas_design',
+      path:'/services/saas-design',
       element:<Saas_design></Saas_design>
     },
     {
-      path:'/Company/About_us',
+      path:'/company/about-us',
       element:<About_us></About_us>
     },
     {
-      path:'/Company/Meet_the_team',
+      path:'/company/meet-the-team',
       element:<Meet_the_team></Meet_the_team>
     },
     {
-      path:'/Company/Blogs',
+      path:'/company/blogs',
       element:<Blogs></Blogs>
     },
     {
-      path:'/Company/Career',
+      path:'/company/career',
       element:<Career></Career>
     },
     {
-      path:'/Company/Contact_us',
+      path:'/company/contact-us',
       element:<Contact_us></Contact_us>
     }
    ]

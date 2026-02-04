@@ -3,7 +3,7 @@ import React from 'react';
 
 const WhyChooseUs = () => {
     return (
-        <div className='bg-white text-black px-5 lg:px-20 py-10 border-b border-black-500'>
+        <div className='bg-white text-black px-5 lg:px-50 py-20 border-b border-gray-200'>
             <span className='border-1  border-green-500 text-green-500 px-5 py-2 rounded-3xl '>Why Choose Us</span>
             <h2 className='text-4xl font-semibold mt-4'>We <span className='italic'>Design</span> for the <span className='italic'>Future</span> to</h2>
             <h2 className='text-4xl font-semibold italic'>Drive Today's <span className='italic'>Success</span></h2>

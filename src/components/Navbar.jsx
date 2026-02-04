@@ -22,13 +22,13 @@ const Navbar = () => {
             </li>
 
             <li>
-                <NavLink to="/Projects" className={navLinkClass}>
+                <NavLink to="/projects" className={navLinkClass}>
                     Projects
                 </NavLink>
             </li>
 
             <li className="relative group">
-                <NavLink to="/Services" className={navLinkClass}>
+                <NavLink to="/services" className={navLinkClass}>
                     Services <IoMdArrowDropdown className="inline" />
                 </NavLink>
 
@@ -48,42 +48,42 @@ const Navbar = () => {
                         {/* LEFT SIDE */}
                         <div className="w-1/2 space-y-4">
                             <div>
-                                <Link to={"/Services/UI_UX"} className="font-semibold">UI/UX</Link>
+                                <Link to={"/services/ui-ux"} className="font-semibold">UI/UX</Link>
                                 <p className="text-sm text-gray-500">
                                     Creating user-friendly digital experiences.
                                 </p>
                             </div>
 
                             <div>
-                                <Link to={"/Services/Web_design"} className="font-semibold">Web Design</Link>
+                                <Link to={"/services/web-design"} className="font-semibold">Web Design</Link>
                                 <p className="text-sm text-gray-500">
                                     Visually appealing & functional websites.
                                 </p>
                             </div>
 
                             <div>
-                                <Link to={"/Services/Web_dev"} className="font-semibold">Web Development</Link>
+                                <Link to={"/services/web-development"} className="font-semibold">Web Development</Link>
                                 <p className="text-sm text-gray-500">
                                     Responsive websites effortlessly.
                                 </p>
                             </div>
 
                             <div>
-                                <Link to={"/Services/Brand_design"} className="font-semibold">Brand Design</Link>
+                                <Link to={"/services/brand-design"} className="font-semibold">Brand Design</Link>
                                 <p className="text-sm text-gray-500">
                                     Interactive web designs made simple.
                                 </p>
                             </div>
 
                             <div>
-                                <Link to={"/Services/Logo_Branding"} className="font-semibold">Logo & Branding</Link>
+                                <Link to={"/services/logo-&-branding"} className="font-semibold">Logo & Branding</Link>
                                 <p className="text-sm text-gray-500">
                                     Creating memorable identities.
                                 </p>
                             </div>
 
                             <div>
-                                <Link to={"/Services/Saas_design"} className="font-semibold">SaaS Design</Link>
+                                <Link to={"/Services/saas-design"} className="font-semibold">SaaS Design</Link>
                                 <p className="text-sm text-gray-500">
                                     Intuitive interfaces that boost engagement.
                                 </p>
@@ -115,13 +115,13 @@ const Navbar = () => {
             </li>
 
             <li>
-                <NavLink to="/Pricing" className={navLinkClass}>
+                <NavLink to="/pricing" className={navLinkClass}>
                     Pricing
                 </NavLink>
             </li>
 
             <li className="relative group">
-                <NavLink to={"/Company"} className={navLinkClass}>
+                <NavLink  >
                     Company <IoMdArrowDropdown className="inline" />
                 </NavLink>
 
@@ -160,35 +160,35 @@ const Navbar = () => {
 
                         <div className="w-1/2 space-y-4">
                             <div>
-                                <Link to={"/Company/About_us"} className="font-semibold">About Us</Link>
+                                <Link to={"/company/about-us"} className="font-semibold">About Us</Link>
                                 <p className="text-sm text-gray-500">
                                     The journey of Design Monks
                                 </p>
                             </div>
 
                             <div>
-                                <Link to={"/Company/Meet_the_team"} className="font-semibold">Meet the Team</Link>
+                                <Link to={"/company/meet-the-team"} className="font-semibold">Meet the Team</Link>
                                 <p className="text-sm text-gray-500">
                                     An overview of the Monk family
                                 </p>
                             </div>
 
                             <div>
-                                <Link to={"/Company/Blogs"} className="font-semibold">Blogs</Link>
+                                <Link to={"/company/blogs"} className="font-semibold">Blogs</Link>
                                 <p className="text-sm text-gray-500">
                                     A collection of informative blogs
                                 </p>
                             </div>
 
                             <div>
-                                <Link to={"/Company/Career"} className="font-semibold">Career</Link>
+                                <Link to={"/company/career"} className="font-semibold">Career</Link>
                                 <p className="text-sm text-gray-500">
                                     Work with top global brands
                                 </p>
                             </div>
 
                             <div>
-                                <Link to={"/Company/Contact_us"} className="font-semibold">Contact Us</Link>
+                                <Link to={"/company/contact-us"} className="font-semibold">Contact Us</Link>
                                 <p className="text-sm text-gray-500">
                                     Start your dream design journey
                                 </p>
@@ -222,7 +222,7 @@ const Navbar = () => {
                     </div>
 
                     <NavLink to="/">
-                        <img src={logo} className="w-[100px] md:ml-17" alt="logo" />
+                        <img src={logo} className="w-[100px] lg:ml-50" alt="logo" />
                     </NavLink>
                 </div>
 

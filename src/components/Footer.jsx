@@ -6,46 +6,42 @@ import amazon from '../assets/Logo-1.png'
 import slack from '../assets/Logo-3.png'
 import zoom from '../assets/Logo-2.png'
 import adobe from '../assets/Logo.png'
+import logo from '../assets/deppol 1.png'
+import { Link } from 'react-router';
 const Footer = () => {
     return (
         <div className='bg-black '>
-            <div>
-                <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 border-b border-gray-300">
+            <div className=''>
+                <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content lg:px-50 p-10 border-b border-gray-200">
+                    <nav className='lg:w-[450px] '>
+                        <img src={logo} className=" " alt="logo" />
+                        <div className=''>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident tenetur, vitae nisi, optio aspernatur vero repellat rem minus quod nihil porro sapiente modi numquam dolorum sit inventore asperiores quia, ut alias.</p>
+                        </div>
+                    </nav>
                     <nav className=''>
                         <h6 className="footer-title font-semibold">Important Links</h6>
-                        <a className="link link-hover">Contact Us</a>
-                        <a className="link link-hover">About Us</a>
-                        <a className="link link-hover">Products</a>
-                        <a className="link link-hover">Industry</a>
-                        <a className="link link-hover">Blogs</a>
+                        <Link to={'/company/contact-us'} className="link link-hover">Contact Us</Link>
+                        <Link to={'company/about-us'} className="link link-hover">About Us</Link>
+                        <Link to={'/projects'} className="link link-hover">Projects</Link>
+                        <Link to={''} className="link link-hover">Industry</Link>
+                        <Link to={'/company/blogs'} className="link link-hover">Blogs</Link>
                     </nav>
-                    <nav>
+                    <nav className=''>
                         <h6 className="footer-title text-white font-semibold">Services</h6>
-                        <a className="link link-hover">UI/UX Design</a>
-                        <a className="link link-hover">Web Design</a>
-                        <a className="link link-hover">Logo & Branding</a>
-                        <a className="link link-hover">Webflow Design</a>
-                        <a className="link link-hover">Framer Design</a>
+                        <Link to={"/services/ui-ux"} className="link link-hover">UI/UX Design</Link>
+                        <Link to={"/services/web-design"} className="link link-hover">Web Design</Link>
+                        <Link to={"/services/logo-&-branding"} className="link link-hover">Logo & Branding</Link>
+                        <Link to={"/services/brand-design"} className="link link-hover">Brand Design</Link>
+                        <Link to={"/services/web-development"} className="link link-hover">Web Development</Link>
                     </nav>
-                    <nav>
-                        <h6 className="footer-title text-white font-semibold">Specialized Industry</h6>
-                        <a className="link link-hover">Fintech Industry</a>
-                        <a className="link link-hover">Healthcare & Fitness Industry</a>
-                        <a className="link link-hover">Edtech Industry</a>
-                        <a className="link link-hover">Cybersecurity Industry</a>
-                        <a className="link link-hover">Company Deck</a>
-                    </nav>
-                    <nav>
-                        <h6 className="footer-title text-white font-semibold">Compare</h6>
-                        <a className="link link-hover">Agencies</a>
-                        <a className="link link-hover">Freelancers</a>
-                        <a className="link link-hover">Inhouse</a>
-                    </nav>
+                    
+                    
                 </footer>
             </div>
             <div>
                 <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content  ">
-                     <div className='grid grid-cols-8 gap-5 justify-between px-5 md:mx-15 items-center mt-8 '>
+                     <div className='grid grid-cols-8 gap-5 justify-between px-50 md:mx-15 items-center mt-8 '>
                                             <img src={spotify} alt="" />
                                             <img src={zapier} alt="" />
                                             <img src={spotify} alt="" />
@@ -59,7 +55,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4 bg-black">
+                <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center lg:px-50 bg-black">
 
                     <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-start pl-30">
                         Terms & Conditions
