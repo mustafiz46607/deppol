@@ -6,6 +6,8 @@ import About from './About';
 import WhatWeDo from './WhatWeDo';
 import WhyChooseUs from './WhyChooseUs';
 import ClientStories from './ClientStories';
+import ConsultationSection from './ConsultrationSection';
+import FAQSection from './FAQSection';
 
 const Home = () => {
     return (
@@ -17,6 +19,8 @@ const Home = () => {
            <WhatWeDo></WhatWeDo>
            <WhyChooseUs></WhyChooseUs>
            <ClientStories></ClientStories>
+           <FAQSection></FAQSection>
+           <ConsultationSection></ConsultationSection>
         </div>
     );
 };
